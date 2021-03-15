@@ -1,0 +1,123 @@
+* @import url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700&display=swap);
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#container {
+    float: left;
+    width: 440px;
+    background: white;
+    margin: 0 0 0 29px;
+    margin-left: 10%;
+}
+
+#grupo {
+    display: block;
+    float: right;
+    margin-right: 110px;
+    background: white;
+}
+
+#inicio {
+    margin: 1em auto;
+    margin-top: 0%;
+    background: blue;
+    width: 100%;
+}
+
+.titulo {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    margin-left: 5em;
+}
+
+.subtitulo {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    color: #00BA91;
+    margin-left: 100px;
+    margin-top: 2em;
+    margin: 506 x 200 auto;
+}
+
+.subtitulo2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 100px;
+    margin-top: -20px;
+    margin-right: 700px;
+}
+
+.texto {
+    font-family: 'DM Sans', sans-serif;
+    size: 18px;
+    color: #444548;
+    word-spacing: 0.3em;
+    text-align: left;
+    margin-top: 5%;
+}
+
+fieldset {
+    border: 0;
+}
+
+input,
+select,
+button {
+    border-radius: 5px;
+    margin-left: 1em;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    color: #021B51;
+    display: block;
+    margin: 1px auto;
+    margin-left: 1em;
+}
+
+.campo input[type="text"],
+[type="e-mail"],
+[type="number"],
+.campo select {
+    padding: 5px 80px;
+    border: 1px solid #021B51;
+    box-shadow: 2pc 2px 2px black(0, 0, 0, 0.2);
+    display: block;
+}
+
+.botao {
+    background-color: #00BA91;
+    padding: 7px 90px;
+    font-size: 0.5;
+    font-family: 'DM Sans', sans-serif;
+    border: 2px;
+    border-radius: 7px;
+    color: #021B51;
+    margin-left: 10em;
+}
+
+#grupo .formulario {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    color: #021B51;
+}
+
+.azul {
+    color: blue;
+}
+
+.botao:hover {
+    background: rgb(22, 62, 99);
+    box-shadow: inset 2px 2px 2px black(0, 0, 0, 0.2);
+    text-shadow: none;
+}
